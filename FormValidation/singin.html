@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="javascript" href="index.js">
+    <link rel="stylesheet" href="style.css">
+    <title>DOC</title>
+     
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .main {
+            width: 30%;
+            background-color: white;
+            margin: 10% auto;
+            border-radius: 10px;
+            border: 2px solid black;
+            padding: 3%;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .main img {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        .mainn {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .main1, .main2 {
+            width: 48%;
+        }
+
+        .main1 p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .main2 input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+        .main2 p{
+         margin-left: -70%;
+       }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 12%;
+            margin-left: -20%;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        .highlight{
+            color: #007bff;
+        }
+        .highlight:hover{
+            color:blue;
+            font-size: x-large;
+            transition: 0.3s ease;
+        }
+       .gim img{
+        width:8%;
+      margin-top:-8.1%;
+      margin-left: 53%;
+       }
+       .gim{
+        margin-left:13%;
+       }
+    </style>
+</head>
+<body>
+    <form id="signinForm" onsubmit=" return signin_validation(event)" >
+        <div class="main">
+            <img src="add.png" alt="">
+            <div class="mainn">
+                <div class="main1">
+                     <p>Username:</p>
+                    <p>Password:</p>
+                </div>
+                <div class="main2">
+                    <input type="text" placeholder="Enter your username" id="name" required>
+                    <input type="password" placeholder="Enter your password" id="password" required>
+                <button  type="submit">log in</button>
+                <p > dont have an account? <a href="signup.html"><span class="highlight"> Sign up</span></a></p>
+                <div class="gim"><p>Or continue with <img src="google.png" alt="Google"></p></div>
+                </div>
+            </div>
+        </div>
+       
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
