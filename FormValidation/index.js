@@ -59,7 +59,7 @@ function signup_validation() {
     }
 
     if (isValid) {
-        alert("hi sigun entered")
+        alert("Succssfully Entered")
         window.location.href = "practice.html";
 
     } else {
@@ -88,7 +88,7 @@ function signin_validation() {
  
 
     if (isValid) {
-        alert("hi sigun entered")
+        alert("SUCCESSFULLY ENTERED")
         window.location.href = "practice.html";
 
     } 
