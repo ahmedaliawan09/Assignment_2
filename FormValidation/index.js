@@ -59,7 +59,7 @@ function signup_validation() {
     }
 
     if (isValid) {
-        alert("Succssfully Entered")
+        console.log("Succssfully Entered")
         window.location.href = "home.html";
 
     } else {
@@ -88,7 +88,7 @@ function signin_validation() {
  
 
     if (isValid) {
-        alert("SUCCESSFULLY ENTERED")
+        console.log("SUCCESSFULLY ENTERED")
         window.location.href = "home.html";
 
     } 
