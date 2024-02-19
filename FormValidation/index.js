@@ -60,7 +60,7 @@ function signup_validation() {
 
     if (isValid) {
         alert("Succssfully Entered")
-        window.location.href = "practice.html";
+        window.location.href = "home.html";
 
     } else {
         event.preventDefault();
@@ -89,7 +89,7 @@ function signin_validation() {
 
     if (isValid) {
         alert("SUCCESSFULLY ENTERED")
-        window.location.href = "practice.html";
+        window.location.href = "home.html";
 
     } 
     else {
