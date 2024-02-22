@@ -11,7 +11,7 @@ The C++ Notepad project is a simple text editor implemented in C++ using various
 ![Screenshot 1](FormValidation/SNAPSHOTS/HOME.PNG)
 Home page
 
-![Screenshot 2](FormValidation/SNAPSHOTS/LOGIN.PNG)
+![Screenshot 2](FormValidation/SNAPSHOTS/LOGIN..PNG)
 Login Page
 
 ![Screenshot 3](FormValidation/SNAPSHOTS/signup.PNG)
