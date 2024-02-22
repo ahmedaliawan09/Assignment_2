@@ -15,7 +15,7 @@ Home page
 Login Page
 
 ![Screenshot 3](FormValidation/SNAPSHOTS/signup.PNG)
-br
+<br>
 Sign Up page
 
 
